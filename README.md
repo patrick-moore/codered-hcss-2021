@@ -24,6 +24,12 @@ Feel free to add expand on these or add your own. If needed, you can modify the 
 
 # Sample Data
 
+> IMPORTANT NOTE:
+> there are now 3 additional datasets - db-split, db-small, db-small-split
+> db-small is a truncated version of the original db.json dataset
+> db-split is the size of the original dataset, but with actual and budgets split into their own entity and referencable via projectId
+> db-small-split is a combination of the db-split and db-small
+
 A sample dataset is provided in the db.json file. Feel free to set up a backend if you want, but a development API can be started quickly by running:
 
 `npm install`
