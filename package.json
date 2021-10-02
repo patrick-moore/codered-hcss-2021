@@ -7,6 +7,9 @@
     "json-server": "^0.16.3"
   },
   "scripts": {
-    "db": "json-server --watch db.json --port 3004"
+    "db": "json-server --watch db-small.json --port 3004",
+    "db-small": "json-server --watch db-small.json --port 3004",
+    "db-small-split": "json-server --watch db-small-split.json --port 3004",
+    "db-split": "json-server --watch db-split.json --port 3004"
   }
 }
